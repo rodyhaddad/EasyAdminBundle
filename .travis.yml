@@ -12,7 +12,7 @@ jobs:
     include:
         -
             name: 'PHP 7.2 with lowest dependencies'
-            php: 7.2
+            php: 7.2.24
             env:
                 - SYMFONY_DEPRECATIONS_HELPER: 'weak'
             before_install:
